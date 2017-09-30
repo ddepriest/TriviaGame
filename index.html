@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sports Movie Trivia</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+	<header id=masthead>
+		<div class=container>
+			<h1>Sports Movie Trivia!</h1>
+		</div>
+	</header>
+
+	<div id="main-container" class="container">
+		<section class="main-section">
+			<h1 class="rules">The Rules</h1>
+			<p class="rules">There are 4 questions, you have 30 seconds to answer all 4 questions.</p>
+			<h2>
+				<button type="button" id="start-button">Start</button>
+			</h2>
+			<!-- Timer will be displayed in div#show-number-->
+			<div id="show-number"></div>
+			<!-- Question 1 -->
+			<p class="Question">1. Who played the role of <em>"Willie Mays Hayes"</em> in Major League II?</p>
+			<ul class="answers">
+			<input type="radio" name="q1" value="a" id="q1a"><label for="q1a">Wesley Snipes</label><br/>
+			<input type="radio" name="q1" value="b" id="q1b"><label for="q1b">Denzel Washington</label><br/>
+			<input type="radio" name="q1" value="c" id="q1c"><label for="q1c">Omar Epps</label><br/>
+			<input type="radio" name="q1" value="d" id="q1d"><label for="q1d">Danny Glover</label><br/>
+			</ul>
+			<!-- Question 2 -->
+			<p class="question">2. Which college football coach DID NOT appear in The Blind Side?</p>
+			<ul class="answers">
+			<input type="radio" name="q2" value="a" id="q2a"><label for="q2a">Lou Holtz</label><br/>
+			<input type="radio" name="q2" value="b" id="q2b"><label for="q2b">Les Miles</label><br/>
+			<input type="radio" name="q2" value="c" id="q2c"><label for="q2c">Nick Saban</label><br/>
+			<input type="radio" name="q2" value="d" id="q2d"><label for="q2d">Houston Nutt</label><br/>
+			</ul>
+			<!-- Question 3 -->
+			<p class="question">3. In the movie Rudy, which actor plays the backup quarterback that throws a touchdown at the end of the game, which allows Rudy to then enter the game?</p>
+			<ul class="answers">
+			<input type="radio" name="q3" value="a" id="q3a"><label for="q3a">Jeremy Renner</label><br/>
+			<input type="radio" name="q3" value="b" id="q3b"><label for="q3b">Vince Vaughn</label><br/>
+			<input type="radio" name="q3" value="c" id="q3c"><label for="q3c">Brad Pitt</label><br/>
+			<input type="radio" name="q3" value="d" id="q3d"><label for="q3d">Val Kilmer</label><br/>
+			</ul>
+			<!-- Question 4 -->
+			<p class="question">4. Which professional wrestler appears in Rocky III as "Thunderlips"?</p>
+			<ul class="answers">
+			<input type="radio" name="q4" value="a" id="q4a"><label for="q4a">Ric Flair</label><br/>
+			<input type="radio" name="q4" value="b" id="q4b"><label for="q4b">The Ultimate Warrior</label><br/>
+			<input type="radio" name="q4" value="c" id="q4c"><label for="q4c"></label>Hulk Hogan<br/>
+			<input type="radio" name="q4" value="d" id="q4d"><label for="q4d"></label>Macho Man Randy Savage<br/>
+			</ul>
+			
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="assets/javascript/app.js"></script>
+<script type="text/javascript" src="/js/questions.js"></script>
+
+</body>
+</html>
